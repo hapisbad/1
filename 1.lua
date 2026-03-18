@@ -38,7 +38,7 @@ do
     print("bk's so tuff boi")
 end
 getgenv().SCANNER_CONFIG = {
-    WS_URL = "wss://this-is-original.onrender.com",
+    WS_URL = "wss://this-is-original.onrender.com/?type=hopper&jobId=" ..game.JobId,
     NOTIFIER_API_URL = "https://this-is-original.onrender.com",
     SERVER_FETCH_URL = "https://this1-p6si.onrender.com",
     SCAN_TIMEOUT = 500,
